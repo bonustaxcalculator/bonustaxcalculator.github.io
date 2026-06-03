@@ -3,467 +3,802 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Bonus Tax Calculator – Instant Bonus & Supplemental Wage Tax Estimator</title>
-  <meta name="description" content="Free Bonus Tax Calculator – Calculate exactly how much tax you'll owe on your bonus. Supports flat-rate (22%), aggregate method, state taxes, and more. Instant, accurate results for 2024–2025." />
-  <meta name="keywords" content="bonus tax calculator, supplemental wage tax, bonus tax rate, how is bonus taxed, bonus tax withholding, federal bonus tax, state bonus tax, aggregate method bonus tax, flat rate bonus tax, paycheck bonus calculator" />
+  <title>Bonus Tax Calculator 2026 – Free Bonus Pay & Paycheck Tax Estimator</title>
+  <meta name="description" content="Free bonus tax calculator for 2026. Instantly estimate federal, state & FICA taxes on your bonus pay. Supports flat rate and aggregate withholding methods. Bonus paycheck & salary calculator." />
+  <meta name="keywords" content="bonus tax calculator, bonus pay tax calculator, bonus payment tax calculator, bonus tax estimator, after tax bonus calculator, bonus salary calculator, bonus payroll calculator, payroll calculator with bonus, bonus paycheck calculator" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://bonustaxcalculator.github.io/" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="Bonus Tax Calculator – Free & Instant" />
-  <meta property="og:description" content="Find out how much of your bonus you'll keep after taxes. Federal, state, and FICA calculations in seconds." />
+  <meta property="og:title" content="Bonus Tax Calculator 2026 – Free Bonus Pay Tax Estimator" />
+  <meta property="og:description" content="Calculate exactly how much tax will be withheld from your bonus. Free, instant, accurate — supports flat rate and aggregate methods." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://bonustaxcalculator.github.io/" />
+  <meta property="og:image" content="https://bonustaxcalculator.github.io/og-image.png" />
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Bonus Tax Calculator" />
-  <meta name="twitter:description" content="Instantly calculate your bonus after taxes. Supports all US states, filing statuses, and withholding methods." />
+  <meta name="twitter:title" content="Bonus Tax Calculator 2026" />
+  <meta name="twitter:description" content="Free bonus pay tax estimator. Flat rate or aggregate method, federal + state + FICA, instant results." />
 
   <!-- Schema Markup -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "WebApplication",
-    "name": "Bonus Tax Calculator",
-    "url": "https://bonustaxcalculator.github.io/",
-    "description": "A free online bonus tax calculator that estimates federal, state, Social Security, and Medicare taxes on supplemental wages and bonus payments.",
-    "applicationCategory": "FinanceApplication",
-    "operatingSystem": "All",
-    "offers": {
-      "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "USD"
-    },
-    "featureList": [
-      "Federal flat-rate bonus tax calculation (22%)",
-      "Aggregate bonus tax method",
-      "State income tax calculation",
-      "FICA tax (Social Security & Medicare)",
-      "2024-2025 tax year support",
-      "All US states supported"
-    ]
-  }
-  </script>
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
+    "@graph": [
       {
-        "@type": "Question",
-        "name": "How is a bonus taxed by the federal government?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "The IRS classifies bonuses as supplemental wages. Employers can withhold at the flat 22% supplemental rate (or 37% above $1 million) or use the aggregate method, combining the bonus with regular wages and withholding at the blended rate."
-        }
+        "@type": "WebSite",
+        "@id": "https://bonustaxcalculator.github.io/#website",
+        "url": "https://bonustaxcalculator.github.io/",
+        "name": "BonusTaxCalc",
+        "description": "Free bonus tax calculator for estimating federal, state, and FICA withholding on bonus payments.",
+        "inLanguage": "en-US"
       },
       {
-        "@type": "Question",
-        "name": "What percentage of my bonus will I lose to taxes?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "On average, 30–40% of a bonus is withheld when combining federal (22%), state, Social Security (6.2%), and Medicare (1.45%) taxes. Your actual take-home depends on your state, filing status, and total annual income."
-        }
+        "@type": "WebApplication",
+        "@id": "https://bonustaxcalculator.github.io/#app",
+        "name": "Bonus Tax Calculator",
+        "url": "https://bonustaxcalculator.github.io/",
+        "applicationCategory": "FinanceApplication",
+        "operatingSystem": "Any",
+        "browserRequirements": "Requires JavaScript",
+        "description": "Calculate how much tax is withheld from your bonus paycheck using the flat supplemental rate or aggregate method. Covers federal income tax, Social Security, Medicare, and state withholding.",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "featureList": [
+          "Federal bonus tax calculation (flat 22% and aggregate method)",
+          "Social Security and Medicare (FICA) withholding",
+          "State income tax estimation",
+          "Bonus + salary combined paycheck calculator",
+          "After-tax net bonus breakdown",
+          "Marginal and effective tax rate display",
+          "Interactive donut chart visualization"
+        ]
       },
       {
-        "@type": "Question",
-        "name": "Is a bonus taxed differently than regular income?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Bonuses are taxed at the same marginal rates as regular income on your tax return. However, withholding differs — employers use either the flat 22% supplemental rate or the aggregate method, which can create a larger withholding than your actual liability."
-        }
+        "@type": "FAQPage",
+        "@id": "https://bonustaxcalculator.github.io/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is the federal tax rate on bonuses in 2026?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The IRS requires employers to withhold a flat 22% federal income tax on supplemental wages (including bonuses) up to $1 million. Bonuses above $1 million are withheld at 37%. Alternatively, employers may use the aggregate method, which combines your regular pay and bonus to determine your marginal bracket."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How does the bonus tax calculator work?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Enter your regular salary, bonus amount, filing status, state tax rate, and pay period. Choose either the flat-rate (22%) or aggregate withholding method. The calculator instantly computes federal income tax, Social Security tax, Medicare tax, and state withholding to show your net after-tax bonus."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do bonuses get taxed more than regular income?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No — bonuses are subject to the same marginal tax rates as ordinary income. However, because the flat 22% withholding rate is applied upfront (or your employer uses the aggregate method pushing you into a higher bracket momentarily), your paycheck withholding may feel higher. Your actual tax owed is reconciled when you file your return."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between the flat rate and aggregate method?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The flat supplemental rate withholds exactly 22% federal tax from your bonus regardless of your salary. The aggregate method adds your bonus to your regular paycheck, recalculates withholding for the combined amount, and subtracts what was already withheld. The aggregate method can result in higher or lower withholding depending on your total income."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are bonuses subject to Social Security and Medicare taxes?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Bonus pay is subject to FICA taxes: 6.2% Social Security (up to the annual wage base of $160,200 for 2026) and 1.45% Medicare. Earners above $200,000 also owe an additional 0.9% Medicare surtax."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How can I reduce taxes on my bonus?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Common strategies include contributing bonus funds to a pre-tax 401(k) or 403(b), making deductible IRA contributions, directing money to an HSA, timing the bonus receipt across tax years, or increasing other tax deductions. Always consult a tax professional for personalized advice."
+            }
+          }
+        ]
       }
     ]
   }
   </script>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
-
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💰</text></svg>" />
 </head>
 <body>
-  <div id="header-root"></div>
 
-  <!-- HERO -->
-  <section class="hero" id="home">
-    <div class="hero-bg">
-      <div class="blob blob-1"></div>
-      <div class="blob blob-2"></div>
-      <div class="blob blob-3"></div>
-      <div class="grid-overlay"></div>
-    </div>
-    <div class="container hero-inner">
-      <div class="hero-text animate-up">
-        <span class="hero-badge">🇺🇸 2024–2025 Tax Year</span>
-        <h1>Know <em>Exactly</em> What You'll Keep From Your Bonus</h1>
-        <p class="hero-sub">Free, instant bonus tax calculator. Federal withholding, state taxes, FICA — all in one place. No sign-up required.</p>
-        <div class="hero-stats">
-          <div class="stat"><span class="stat-num" data-count="50">0</span><span>+</span><small>States Covered</small></div>
-          <div class="stat-div"></div>
-          <div class="stat"><span class="stat-num" data-count="2">0</span><span></span><small>Withholding Methods</small></div>
-          <div class="stat-div"></div>
-          <div class="stat"><span class="stat-num" data-count="100">0</span><span>%</span><small>Free Forever</small></div>
+  <!-- ===== HEADER (injected by header.js) ===== -->
+  <div id="header-placeholder"></div>
+
+  <main>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="home" aria-label="Hero">
+      <div class="container">
+        <div class="hero-inner">
+
+          <div class="hero-content">
+            <div class="hero-eyebrow">
+              <div class="hero-badge">
+                <span class="badge-dot"></span>
+                Updated for 2026 Tax Year
+              </div>
+            </div>
+            <h1>The Smartest <em>Bonus Tax</em> Calculator Online</h1>
+            <p class="hero-desc">Instantly estimate how much federal, state, and FICA tax will be withheld from your bonus paycheck — using the flat rate or aggregate method.</p>
+            <div class="hero-ctas">
+              <a href="#calculator" class="btn-primary">
+                <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M9 7H6a2 2 0 00-2 2v9a2 2 0 002 2h9a2 2 0 002-2v-3M9 7V5a2 2 0 012-2h2M9 7h8m0 0V5a2 2 0 00-2-2h-2m2 4v4m0 0H9"/></svg>
+                Calculate My Bonus Tax
+              </a>
+              <a href="#how-it-works" class="btn-secondary">
+                How It Works
+                <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M9 18l6-6-6-6"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="hero-card" aria-label="Sample bonus calculation preview">
+              <div class="hero-card-label">Your Estimated Take-Home Bonus</div>
+              <div class="hero-card-amount">$7,682.50</div>
+              <div class="hero-breakdown">
+                <div class="breakdown-row">
+                  <span class="breakdown-label">Gross Bonus</span>
+                  <span class="breakdown-val">$10,000.00</span>
+                </div>
+                <hr class="breakdown-divider" />
+                <div class="breakdown-row">
+                  <span class="breakdown-label">Federal Tax (22%)</span>
+                  <span class="breakdown-val neg">−$2,200.00</span>
+                </div>
+                <div class="breakdown-row">
+                  <span class="breakdown-label">Social Security (6.2%)</span>
+                  <span class="breakdown-val neg">−$620.00</span>
+                </div>
+                <div class="breakdown-row">
+                  <span class="breakdown-label">Medicare (1.45%)</span>
+                  <span class="breakdown-val neg">−$145.00</span>
+                </div>
+                <div class="breakdown-row">
+                  <span class="breakdown-label">State Tax (est.)</span>
+                  <span class="breakdown-val neg">−$352.50</span>
+                </div>
+                <hr class="breakdown-divider" />
+                <div class="breakdown-row">
+                  <span class="breakdown-label" style="font-weight:700;color:var(--text-primary)">Net Bonus</span>
+                  <span class="breakdown-val" style="color:var(--success)">$6,682.50</span>
+                </div>
+              </div>
+              <div class="hero-chips">
+                <span class="hero-chip">🏛️ Federal</span>
+                <span class="hero-chip">🏦 FICA</span>
+                <span class="hero-chip">📍 State</span>
+                <span class="hero-chip">📊 Chart</span>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
-      <div class="hero-cta animate-up delay-2">
-        <a href="#calculator" class="btn btn-primary pulse">Calculate My Bonus Tax</a>
-        <a href="#how-it-works" class="btn btn-ghost">How It Works ↓</a>
+    </section>
+
+    <!-- ===== STATS ===== -->
+    <section class="stats-section" aria-label="Key statistics">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-item animate-on-scroll">
+            <div class="stat-number" data-target="500" data-suffix="K+" data-prefix="">500K+</div>
+            <div class="stat-label">Calculations Run</div>
+          </div>
+          <div class="stat-item animate-on-scroll delay-1">
+            <div class="stat-number" data-target="22" data-suffix="%" data-prefix="">22%</div>
+            <div class="stat-label">IRS Flat Bonus Rate</div>
+          </div>
+          <div class="stat-item animate-on-scroll delay-2">
+            <div class="stat-number" data-target="7" data-suffix="" data-prefix="">7</div>
+            <div class="stat-label">Federal Tax Brackets</div>
+          </div>
+          <div class="stat-item animate-on-scroll delay-3">
+            <div class="stat-number" data-target="100" data-suffix="% Free" data-prefix="">100% Free</div>
+            <div class="stat-label">No Sign-Up Needed</div>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="scroll-hint">
-      <span></span>
-    </div>
-  </section>
+    </section>
 
-  <!-- CALCULATOR -->
-  <section class="section calc-section" id="calculator">
-    <div class="container">
-      <div class="section-label">🧮 The Calculator</div>
-      <h2 class="section-title">Bonus Tax Calculator</h2>
-      <p class="section-sub">Enter your details below and get an instant breakdown of your bonus withholding.</p>
-
-      <div class="calc-wrapper">
-        <div class="calc-form card">
-          <div class="form-group">
-            <label for="bonusAmount">Bonus Amount ($)</label>
-            <div class="input-wrap">
-              <span class="input-icon">$</span>
-              <input type="number" id="bonusAmount" placeholder="e.g. 10000" min="0" step="100" />
-            </div>
-          </div>
-
-          <div class="form-group">
-            <label for="annualSalary">Annual Salary ($) <small>Used for aggregate method</small></label>
-            <div class="input-wrap">
-              <span class="input-icon">$</span>
-              <input type="number" id="annualSalary" placeholder="e.g. 75000" min="0" step="1000" />
-            </div>
-          </div>
-
-          <div class="form-row">
-            <div class="form-group">
-              <label for="filingStatus">Filing Status</label>
-              <select id="filingStatus">
-                <option value="single">Single</option>
-                <option value="married_joint">Married Filing Jointly</option>
-                <option value="married_sep">Married Filing Separately</option>
-                <option value="head">Head of Household</option>
-              </select>
-            </div>
-            <div class="form-group">
-              <label for="payPeriod">Pay Frequency</label>
-              <select id="payPeriod">
-                <option value="26">Bi-Weekly (26)</option>
-                <option value="24">Semi-Monthly (24)</option>
-                <option value="12">Monthly (12)</option>
-                <option value="52">Weekly (52)</option>
-              </select>
-            </div>
-          </div>
-
-          <div class="form-group">
-            <label for="stateSelect">State</label>
-            <select id="stateSelect"></select>
-          </div>
-
-          <div class="form-group">
-            <label>Withholding Method</label>
-            <div class="toggle-group">
-              <button class="toggle-btn active" data-method="flat" id="flatBtn">Flat Rate (22%)</button>
-              <button class="toggle-btn" data-method="aggregate" id="aggBtn">Aggregate Method</button>
-            </div>
-            <p class="method-note" id="methodNote">The IRS flat rate withholds 22% federal tax from supplemental wages up to $1 million. Simple and most common.</p>
-          </div>
-
-          <div class="form-group">
-            <label for="additionalDeductions">Additional Pre-Tax Deductions ($) <small>401k, HSA, etc.</small></label>
-            <div class="input-wrap">
-              <span class="input-icon">$</span>
-              <input type="number" id="additionalDeductions" placeholder="0" min="0" step="100" />
-            </div>
-          </div>
-
-          <button class="btn btn-primary full-width" id="calcBtn">Calculate Now →</button>
+    <!-- ===== CALCULATOR ===== -->
+    <section class="calculator-section" id="calculator" aria-label="Bonus Tax Calculator Tool">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <span class="tag">🧮 Free Tool</span>
+          <h2 class="section-title">Bonus Tax Calculator</h2>
+          <p class="section-subtitle">Enter your details below to get an instant, accurate estimate of your bonus withholding and take-home pay.</p>
         </div>
 
-        <div class="calc-results card" id="resultsPanel">
-          <div class="results-placeholder" id="resultsPlaceholder">
-            <div class="placeholder-icon">💰</div>
-            <p>Enter your bonus details and click <strong>Calculate Now</strong> to see your full tax breakdown.</p>
+        <div class="calc-wrapper">
+
+          <!-- INPUT FORM -->
+          <div class="calc-card animate-on-scroll">
+            <h3 class="calc-title">Your Bonus Details</h3>
+            <p class="calc-subtitle">All fields help improve accuracy. State tax rate is optional.</p>
+
+            <form id="calc-form" novalidate>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="salary">Annual Base Salary <span>(before bonus)</span></label>
+                  <div class="input-wrap">
+                    <span class="input-prefix">$</span>
+                    <input class="form-input" type="text" id="salary" name="salary" placeholder="75,000" inputmode="decimal" autocomplete="off" />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="bonus">Bonus Amount <span>(gross)</span></label>
+                  <div class="input-wrap">
+                    <span class="input-prefix">$</span>
+                    <input class="form-input" type="text" id="bonus" name="bonus" placeholder="10,000" inputmode="decimal" autocomplete="off" required />
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="filing_status">Filing Status</label>
+                  <div class="form-select-wrap">
+                    <select class="form-select" id="filing_status" name="filing_status">
+                      <option value="single">Single</option>
+                      <option value="mfj">Married Filing Jointly</option>
+                      <option value="mfs">Married Filing Separately</option>
+                      <option value="hoh">Head of Household</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="pay_period">Pay Period</label>
+                  <div class="form-select-wrap">
+                    <select class="form-select" id="pay_period" name="pay_period">
+                      <option value="annual">Annual</option>
+                      <option value="semimonthly">Semi-Monthly</option>
+                      <option value="biweekly">Bi-Weekly</option>
+                      <option value="weekly">Weekly</option>
+                      <option value="monthly">Monthly</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="state_rate">State Income Tax Rate <span>(optional — enter your state's rate)</span></label>
+                <div class="input-wrap">
+                  <input class="form-input has-suffix" type="number" id="state_rate" name="state_rate" placeholder="e.g. 5.0" min="0" max="15" step="0.01" />
+                  <span class="input-suffix">%</span>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label">Withholding Method</label>
+                <div class="radio-group">
+                  <label class="radio-option">
+                    <input type="radio" name="method" value="flat" checked />
+                    <div class="radio-dot"></div>
+                    <div class="radio-info">
+                      <div class="radio-label">Flat Rate</div>
+                      <div class="radio-desc">22% federal flat</div>
+                    </div>
+                  </label>
+                  <label class="radio-option">
+                    <input type="radio" name="method" value="aggregate" />
+                    <div class="radio-dot"></div>
+                    <div class="radio-info">
+                      <div class="radio-label">Aggregate</div>
+                      <div class="radio-desc">Combined bracket</div>
+                    </div>
+                  </label>
+                </div>
+                <div class="method-note flat-note" id="flat-note">
+                  ⚡ The IRS flat 22% supplemental rate is applied directly to your bonus. Simple and predictable.
+                </div>
+                <div class="method-note agg-note" id="agg-note">
+                  📊 Your bonus is added to your regular pay to find your marginal bracket — may result in more or less withholding.
+                </div>
+              </div>
+
+              <button type="submit" class="calc-submit">Calculate My Bonus Tax →</button>
+
+            </form>
           </div>
-          <div class="results-content hidden" id="resultsContent">
+
+          <!-- RESULTS PANEL -->
+          <div class="calc-card results-panel" id="results-panel" aria-live="polite" aria-label="Calculation Results">
             <div class="results-header">
-              <h3>Your Bonus Breakdown</h3>
-              <span class="tag" id="methodTag">Flat Rate</span>
+              <h3 class="results-title">Your Results</h3>
+              <span class="results-badge">2026 Estimate</span>
             </div>
 
-            <div class="big-result">
-              <small>Estimated Take-Home</small>
-              <div class="big-num" id="takeHome">$0</div>
+            <div class="net-amount-box">
+              <div class="net-amount-label">💰 Estimated Net Bonus</div>
+              <div class="net-amount-value" id="res-net">$0.00</div>
+              <div class="net-amount-pct" id="res-net-pct">After all withholding</div>
             </div>
 
-            <div class="donut-wrap">
-              <canvas id="donutChart" width="200" height="200"></canvas>
-              <div class="donut-center">
-                <small>Tax Rate</small>
-                <strong id="effectiveRate">0%</strong>
+            <div class="result-rows">
+              <div class="result-row">
+                <div class="result-row-left">
+                  <div class="result-row-label">Gross Bonus</div>
+                </div>
+                <div class="result-row-val" id="res-gross">$0.00</div>
+              </div>
+              <div class="result-row">
+                <div class="result-row-left">
+                  <div class="result-row-label">Federal Income Tax</div>
+                  <div class="result-row-bar-wrap"><div class="result-row-bar bar-federal" id="bar-federal"></div></div>
+                </div>
+                <div class="result-row-val" id="res-federal">$0.00</div>
+              </div>
+              <div class="result-row">
+                <div class="result-row-left">
+                  <div class="result-row-label">Social Security (6.2%)</div>
+                  <div class="result-row-bar-wrap"><div class="result-row-bar bar-fica" id="bar-fica"></div></div>
+                </div>
+                <div class="result-row-val" id="res-social">$0.00</div>
+              </div>
+              <div class="result-row">
+                <div class="result-row-left">
+                  <div class="result-row-label">Medicare (1.45%+)</div>
+                </div>
+                <div class="result-row-val" id="res-medicare">$0.00</div>
+              </div>
+              <div class="result-row">
+                <div class="result-row-left">
+                  <div class="result-row-label">State Income Tax</div>
+                  <div class="result-row-bar-wrap"><div class="result-row-bar bar-state" id="bar-state"></div></div>
+                </div>
+                <div class="result-row-val" id="res-state">$0.00</div>
+              </div>
+              <div class="result-row" style="border-top:1px solid var(--border); padding-top:10px; margin-top:2px;">
+                <div class="result-row-left">
+                  <div class="result-row-label" style="font-weight:700; color:var(--text-primary)">Total Tax Withheld</div>
+                  <div class="result-row-bar-wrap"><div class="result-row-bar" id="bar-net" style="background:var(--success)"></div></div>
+                </div>
+                <div class="result-row-val" id="res-total-tax" style="color:var(--danger)">$0.00</div>
               </div>
             </div>
 
-            <div class="breakdown-list" id="breakdownList"></div>
+            <div class="result-summary">
+              <div class="summary-item">
+                <div class="summary-item-label">Effective Rate</div>
+                <div class="summary-item-val" id="res-effective">0.00%</div>
+              </div>
+              <div class="summary-item">
+                <div class="summary-item-label">Marginal Bracket</div>
+                <div class="summary-item-val" id="res-marginal">—</div>
+              </div>
+            </div>
 
-            <div class="results-footer">
-              <button class="btn btn-ghost small" id="resetBtn">Reset</button>
-              <button class="btn btn-outline small" id="copyBtn">📋 Copy Results</button>
+            <div class="donut-section">
+              <div class="donut-title">Tax Breakdown</div>
+              <canvas id="donut-chart" width="160" height="160" aria-label="Donut chart showing bonus tax breakdown"></canvas>
+              <div class="donut-legend">
+                <div class="legend-item"><span class="legend-dot" style="background:#22c55e"></span>Net Bonus</div>
+                <div class="legend-item"><span class="legend-dot" style="background:#f97316"></span>Federal</div>
+                <div class="legend-item"><span class="legend-dot" style="background:#8b5cf6"></span>State</div>
+                <div class="legend-item"><span class="legend-dot" style="background:#06b6d4"></span>FICA</div>
+              </div>
+            </div>
+
+          </div><!-- /results-panel -->
+
+        </div><!-- /calc-wrapper -->
+      </div>
+    </section>
+
+    <!-- ===== HOW IT WORKS ===== -->
+    <section class="how-section" id="how-it-works" aria-label="How the bonus tax calculator works">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <span class="tag tag-blue">🔍 Process</span>
+          <h2 class="section-title">How Our Bonus Tax Calculator Works</h2>
+          <p class="section-subtitle">Three simple steps to estimate your bonus paycheck withholding accurately.</p>
+        </div>
+        <div class="steps-grid">
+          <div class="step-card animate-on-scroll delay-1">
+            <div class="step-number">1</div>
+            <h3 class="step-title">Enter Your Pay Info</h3>
+            <p class="step-desc">Input your annual base salary, bonus amount, filing status, and pay period. Adding your state's income tax rate improves accuracy further.</p>
+          </div>
+          <div class="step-card animate-on-scroll delay-2">
+            <div class="step-number">2</div>
+            <h3 class="step-title">Choose Your Method</h3>
+            <p class="step-desc">Select either the IRS flat supplemental rate (22%) or the aggregate method. Both are IRS-approved withholding approaches your employer may use.</p>
+          </div>
+          <div class="step-card animate-on-scroll delay-3">
+            <div class="step-number">3</div>
+            <h3 class="step-title">See Your Net Bonus</h3>
+            <p class="step-desc">Instantly get a full breakdown: federal tax, Social Security, Medicare, and state withholding — plus your after-tax take-home bonus amount.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TAX RATES ===== -->
+    <section class="rates-section" id="tax-rates" aria-label="2026 Bonus and income tax rates">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <span class="tag tag-purple">📋 Reference</span>
+          <h2 class="section-title">2026 Bonus Tax Rates</h2>
+          <p class="section-subtitle">Federal income tax brackets that apply when using the aggregate method, plus the flat supplemental bonus rate.</p>
+        </div>
+
+        <div class="tab-group animate-on-scroll">
+          <div class="tabs-header">
+            <button class="tab-btn active" data-tab="single">Single / MFS</button>
+            <button class="tab-btn" data-tab="mfj">Married Jointly</button>
+            <button class="tab-btn" data-tab="supplemental">Supplemental Rates</button>
+          </div>
+
+          <!-- Single Brackets -->
+          <div class="tab-pane active" data-pane="single">
+            <div class="rates-table-wrap">
+              <table class="rates-table">
+                <thead>
+                  <tr>
+                    <th>Tax Rate</th>
+                    <th>Taxable Income (Single)</th>
+                    <th>Tax Owed on Bracket</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><td><span class="rate-badge rate-10">10%</span></td><td>$0 – $11,600</td><td>10% of taxable income</td></tr>
+                  <tr><td><span class="rate-badge rate-12">12%</span></td><td>$11,601 – $47,150</td><td>$1,160 + 12% over $11,600</td></tr>
+                  <tr class="highlight-row"><td><span class="rate-badge rate-22">22%</span></td><td>$47,151 – $100,525</td><td>$5,426 + 22% over $47,150</td></tr>
+                  <tr><td><span class="rate-badge rate-24">24%</span></td><td>$100,526 – $191,950</td><td>$17,168.50 + 24% over $100,525</td></tr>
+                  <tr><td><span class="rate-badge rate-32">32%</span></td><td>$191,951 – $243,725</td><td>$39,110.50 + 32% over $191,950</td></tr>
+                  <tr><td><span class="rate-badge rate-35">35%</span></td><td>$243,726 – $609,350</td><td>$55,678.50 + 35% over $243,725</td></tr>
+                  <tr><td><span class="rate-badge rate-37">37%</span></td><td>Over $609,350</td><td>$183,647.25 + 37% over $609,350</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- MFJ Brackets -->
+          <div class="tab-pane" data-pane="mfj">
+            <div class="rates-table-wrap">
+              <table class="rates-table">
+                <thead>
+                  <tr>
+                    <th>Tax Rate</th>
+                    <th>Taxable Income (Married Jointly)</th>
+                    <th>Tax Owed on Bracket</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><td><span class="rate-badge rate-10">10%</span></td><td>$0 – $23,200</td><td>10% of taxable income</td></tr>
+                  <tr><td><span class="rate-badge rate-12">12%</span></td><td>$23,201 – $94,300</td><td>$2,320 + 12% over $23,200</td></tr>
+                  <tr class="highlight-row"><td><span class="rate-badge rate-22">22%</span></td><td>$94,301 – $201,050</td><td>$10,852 + 22% over $94,300</td></tr>
+                  <tr><td><span class="rate-badge rate-24">24%</span></td><td>$201,051 – $383,900</td><td>$34,337 + 24% over $201,050</td></tr>
+                  <tr><td><span class="rate-badge rate-32">32%</span></td><td>$383,901 – $487,450</td><td>$78,221 + 32% over $383,900</td></tr>
+                  <tr><td><span class="rate-badge rate-35">35%</span></td><td>$487,451 – $731,200</td><td>$111,357 + 35% over $487,450</td></tr>
+                  <tr><td><span class="rate-badge rate-37">37%</span></td><td>Over $731,200</td><td>$196,669.50 + 37% over $731,200</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Supplemental / FICA -->
+          <div class="tab-pane" data-pane="supplemental">
+            <div class="rates-table-wrap">
+              <table class="rates-table">
+                <thead>
+                  <tr>
+                    <th>Tax Type</th>
+                    <th>Rate</th>
+                    <th>Applies To</th>
+                    <th>Notes</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="highlight-row"><td>Federal Flat Supplemental</td><td><span class="rate-badge rate-22">22%</span></td><td>Bonuses ≤ $1 million</td><td>IRS mandatory flat rate on supplemental wages</td></tr>
+                  <tr><td>Federal Flat Supplemental</td><td><span class="rate-badge rate-37">37%</span></td><td>Bonuses &gt; $1 million</td><td>Top bracket rate applies to excess</td></tr>
+                  <tr><td>Social Security (Employee)</td><td><span class="rate-badge rate-12">6.2%</span></td><td>Wages up to $160,200</td><td>OASDI wage base for 2026</td></tr>
+                  <tr><td>Medicare (Employee)</td><td><span class="rate-badge rate-10">1.45%</span></td><td>All wages</td><td>No income cap</td></tr>
+                  <tr><td>Additional Medicare Surtax</td><td><span class="rate-badge rate-24">0.9%</span></td><td>Wages over $200,000</td><td>Single filers; $250K for MFJ</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===== WITHHOLDING METHODS ===== -->
+    <section class="methods-section" id="methods" aria-label="Bonus withholding methods explained">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <span class="tag">⚖️ Methods</span>
+          <h2 class="section-title">Two IRS-Approved Withholding Methods</h2>
+          <p class="section-subtitle">Your employer chooses which method applies to your bonus paycheck. Understanding both helps you plan smarter.</p>
+        </div>
+        <div class="methods-grid">
+          <div class="method-card animate-on-scroll delay-1">
+            <div class="method-card-icon">⚡</div>
+            <h3 class="method-card-title">Flat Supplemental Rate (22%)</h3>
+            <p class="method-card-desc">The IRS allows employers to withhold a flat 22% federal income tax on supplemental wages — including bonuses — up to $1 million per year. This is the most common method and is simple to calculate. Bonuses exceeding $1 million are withheld at 37% on the excess amount.</p>
+            <div class="method-pros-cons">
+              <ul class="pros">
+                <p class="pros-title">Pros</p>
+                <li>Simple, predictable calculation</li>
+                <li>Easy to plan around</li>
+                <li>Lower withholding if bracket &gt; 22%</li>
+              </ul>
+              <ul class="cons">
+                <p class="cons-title">Cons</p>
+                <li>May over-withhold for lower incomes</li>
+                <li>Requires reconciliation at filing</li>
+                <li>Doesn't reflect true marginal rate</li>
+              </ul>
+            </div>
+          </div>
+          <div class="method-card animate-on-scroll delay-2">
+            <div class="method-card-icon">📊</div>
+            <h3 class="method-card-title">Aggregate Method</h3>
+            <p class="method-card-desc">Under the aggregate method, your employer combines your most recent regular paycheck with your bonus, calculates withholding on the total using your W-4 allowances, then subtracts what was already withheld from your regular check. The result is applied to your bonus paycheck.</p>
+            <div class="method-pros-cons">
+              <ul class="pros">
+                <p class="pros-title">Pros</p>
+                <li>More accurate to actual liability</li>
+                <li>Better for lower income earners</li>
+                <li>Reflects your real marginal rate</li>
+              </ul>
+              <ul class="cons">
+                <p class="cons-title">Cons</p>
+                <li>Can result in higher withholding</li>
+                <li>More complex calculation</li>
+                <li>Less predictable net amount</li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- HOW IT WORKS -->
-  <section class="section how-section" id="how-it-works">
-    <div class="container">
-      <div class="section-label">⚙️ The Process</div>
-      <h2 class="section-title">How Bonus Tax Withholding Works</h2>
-      <p class="section-sub">The IRS treats bonuses as "supplemental wages." Here's exactly how the math works — step by step.</p>
+    <!-- ===== CONTENT / KEYWORD CARDS ===== -->
+    <section class="content-section" aria-label="Bonus and salary calculator tools">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <span class="tag tag-blue">🛠️ Tools & Resources</span>
+          <h2 class="section-title">All-in-One Bonus & Paycheck Tools</h2>
+          <p class="section-subtitle">Whether you need a bonus paycheck calculator, a salary plus bonus estimator, or a full payroll calculator with bonus — we have you covered.</p>
+        </div>
+        <div class="content-grid">
 
-      <div class="steps-grid">
-        <div class="step-card animate-fade" style="--delay:0s">
-          <div class="step-num">01</div>
-          <div class="step-icon">📄</div>
-          <h3>Identify Supplemental Wages</h3>
-          <p>Bonuses, commissions, overtime, severance, and tips are all classified as supplemental wages by the IRS — separate from your regular salary.</p>
-        </div>
-        <div class="step-card animate-fade" style="--delay:0.1s">
-          <div class="step-num">02</div>
-          <div class="step-icon">🏛️</div>
-          <h3>Federal Withholding Applied</h3>
-          <p>Employers choose between the 22% flat supplemental rate or the aggregate method. Bonuses over $1 million are withheld at 37%.</p>
-        </div>
-        <div class="step-card animate-fade" style="--delay:0.2s">
-          <div class="step-num">03</div>
-          <div class="step-icon">🗺️</div>
-          <h3>State Tax Deducted</h3>
-          <p>Most states also withhold income tax from bonuses. Rates range from 0% (TX, FL, NV) to over 13% (CA). Our calculator uses each state's actual withholding rate.</p>
-        </div>
-        <div class="step-card animate-fade" style="--delay:0.3s">
-          <div class="step-num">04</div>
-          <div class="step-icon">🔒</div>
-          <h3>FICA Taxes Collected</h3>
-          <p>Social Security (6.2% up to $168,600 wage base) and Medicare (1.45%, plus 0.9% surtax above $200K) are withheld just like on regular wages.</p>
-        </div>
-        <div class="step-card animate-fade" style="--delay:0.4s">
-          <div class="step-num">05</div>
-          <div class="step-icon">📊</div>
-          <h3>True Liability at Filing</h3>
-          <p>Withholding is an estimate. Your actual tax on the bonus is determined at year-end when your total income is calculated on your Form 1040.</p>
-        </div>
-        <div class="step-card animate-fade" style="--delay:0.5s">
-          <div class="step-num">06</div>
-          <div class="step-icon">💡</div>
-          <h3>Possible Refund or Owe</h3>
-          <p>If the flat 22% rate is higher than your marginal bracket, you may receive a refund. If it's lower (rare), you may owe more at filing.</p>
+          <div class="content-card animate-on-scroll delay-1">
+            <div class="content-card-icon">💵</div>
+            <h3 class="content-card-title">After-Tax Bonus Calculator</h3>
+            <p class="content-card-desc">Find out exactly how much of your bonus you'll actually keep after all federal, state, and FICA taxes are withheld. Our after-tax bonus calculator shows your true take-home amount instantly.</p>
+          </div>
+
+          <div class="content-card animate-on-scroll delay-2">
+            <div class="content-card-icon">📑</div>
+            <h3 class="content-card-title">Bonus & Salary Calculator</h3>
+            <p class="content-card-desc">Combine your regular salary and bonus for a complete picture. Our bonus and salary calculator shows how your total annual compensation affects your marginal tax bracket and overall withholding.</p>
+          </div>
+
+          <div class="content-card animate-on-scroll delay-3">
+            <div class="content-card-icon">📋</div>
+            <h3 class="content-card-title">Bonus Payroll Calculator</h3>
+            <p class="content-card-desc">Run payroll estimates that include bonus payments. Our bonus payroll calculator helps HR teams and self-employed individuals estimate total employer and employee tax obligations on supplemental wages.</p>
+          </div>
+
+          <div class="content-card animate-on-scroll delay-1">
+            <div class="content-card-icon">🧾</div>
+            <h3 class="content-card-title">Bonus Payment Tax Calculator</h3>
+            <p class="content-card-desc">Wondering about taxes on a specific bonus payment? Enter the exact bonus amount and your income details to get a precise tax withholding estimate broken down by tax type and authority.</p>
+          </div>
+
+          <div class="content-card animate-on-scroll delay-2">
+            <div class="content-card-icon">🔢</div>
+            <h3 class="content-card-title">Taxable Bonus Calculator</h3>
+            <p class="content-card-desc">All bonus income is considered taxable by the IRS as supplemental wages. Use our taxable bonus calculator to understand which portion of your compensation is subject to each type of tax.</p>
+          </div>
+
+          <div class="content-card animate-on-scroll delay-3">
+            <div class="content-card-icon">💼</div>
+            <h3 class="content-card-title">Paycheck & Bonus Calculator</h3>
+            <p class="content-card-desc">See your full paycheck including both regular and bonus pay. Calculate net take-home, effective tax rate, and year-to-date withholding to compare bonus payment scenarios side by side.</p>
+          </div>
+
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- METHODS COMPARISON -->
-  <section class="section methods-section" id="methods">
-    <div class="container">
-      <div class="section-label">⚖️ Comparison</div>
-      <h2 class="section-title">Flat Rate vs. Aggregate Method</h2>
-      <p class="section-sub">Two IRS-approved methods for withholding taxes on bonuses — here's the difference and when each applies.</p>
-
-      <div class="methods-grid">
-        <div class="method-card flat-card">
-          <div class="method-badge">Most Common</div>
-          <div class="method-icon">⚡</div>
-          <h3>Flat Rate Method</h3>
-          <p class="method-rate">22% Federal</p>
-          <ul>
-            <li>✅ Simple, predictable withholding</li>
-            <li>✅ No need to know annual income</li>
-            <li>✅ Applied to first $1 million in supplemental wages</li>
-            <li>⚠️ 37% rate kicks in above $1 million</li>
-            <li>ℹ️ May over-withhold if your bracket is below 22%</li>
-          </ul>
-          <div class="method-formula">
-            <strong>Formula:</strong> Bonus × 22% = Federal Withholding
-          </div>
+    <!-- ===== TAX TIPS ===== -->
+    <section class="tips-section" aria-label="Tips to reduce bonus tax withholding">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <span class="tag">💡 Tax Tips</span>
+          <h2 class="section-title">Strategies to Reduce Tax on Your Bonus</h2>
+          <p class="section-subtitle">These legal strategies can help you keep more of your bonus — always verify with a qualified tax advisor.</p>
         </div>
-        <div class="method-card agg-card">
-          <div class="method-badge alt">Precise</div>
-          <div class="method-icon">🎯</div>
-          <h3>Aggregate Method</h3>
-          <p class="method-rate">Based on Your Bracket</p>
-          <ul>
-            <li>✅ More accurate to actual tax liability</li>
-            <li>✅ Considers regular wages + bonus combined</li>
-            <li>✅ Better for high earners in lower brackets</li>
-            <li>⚠️ More complex calculation</li>
-            <li>ℹ️ Employer applies annualized pay + bonus tax</li>
-          </ul>
-          <div class="method-formula">
-            <strong>Formula:</strong> Combined tax – Regular wage tax = Withholding
+        <div class="tips-grid">
+          <div class="tip-item animate-on-scroll delay-1">
+            <div class="tip-icon">🏦</div>
+            <div>
+              <div class="tip-title">Maximize 401(k) or 403(b) Contributions</div>
+              <p class="tip-desc">Pre-tax retirement contributions directly reduce your taxable income. Ask your employer if you can direct a larger percentage of your bonus check into your 401(k) up to the annual IRS limit ($23,000 for 2026, $30,500 if age 50+).</p>
+            </div>
           </div>
-        </div>
-      </div>
-
-      <div class="methods-tip">
-        <span>💡</span>
-        <p><strong>Pro Tip:</strong> High earners in the 12–22% bracket may prefer the aggregate method to avoid over-withholding. If your marginal rate is above 22%, the flat rate actually under-withholds, meaning you may owe at filing.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- STATE TAX INFO -->
-  <section class="section states-section" id="states">
-    <div class="container">
-      <div class="section-label">🗺️ State Taxes</div>
-      <h2 class="section-title">Bonus Tax Rates by State</h2>
-      <p class="section-sub">State income tax on bonuses varies widely. Nine states have no income tax at all, while others can take over 10%.</p>
-
-      <div class="states-map-wrap">
-        <div class="state-categories">
-          <div class="cat-card no-tax">
-            <div class="cat-icon">🎉</div>
-            <h4>No Income Tax States</h4>
-            <p>Alaska, Florida, Nevada, New Hampshire, South Dakota, Tennessee, Texas, Washington, Wyoming</p>
-            <strong>Bonus Rate: 0%</strong>
+          <div class="tip-item animate-on-scroll delay-2">
+            <div class="tip-icon">🏥</div>
+            <div>
+              <div class="tip-title">Contribute to an HSA or FSA</div>
+              <p class="tip-desc">Health Savings Account (HSA) and Flexible Spending Account (FSA) contributions are pre-tax and lower your adjusted gross income, which may reduce the marginal rate applied to your bonus under the aggregate method.</p>
+            </div>
           </div>
-          <div class="cat-card low-tax">
-            <div class="cat-icon">👍</div>
-            <h4>Low-Tax States</h4>
-            <p>Arizona (2.5%), Colorado (4.4%), Illinois (4.95%), Indiana (3.15%), Michigan (4.05%), Utah (4.65%)</p>
-            <strong>Bonus Rate: Under 5%</strong>
+          <div class="tip-item animate-on-scroll delay-1">
+            <div class="tip-icon">📆</div>
+            <div>
+              <div class="tip-title">Time Your Bonus Across Tax Years</div>
+              <p class="tip-desc">If you're close to a bracket threshold, ask whether your employer can issue the bonus in January of the next year instead of December. This shifts the income to the next tax year, potentially at a lower marginal rate.</p>
+            </div>
           </div>
-          <div class="cat-card mid-tax">
-            <div class="cat-icon">🔶</div>
-            <h4>Mid-Range States</h4>
-            <p>Georgia (5.49%), North Carolina (4.75%), Virginia (5.75%), Ohio (3.99%), Missouri (4.7%)</p>
-            <strong>Bonus Rate: 4–7%</strong>
+          <div class="tip-item animate-on-scroll delay-2">
+            <div class="tip-icon">📊</div>
+            <div>
+              <div class="tip-title">Harvest Tax Losses</div>
+              <p class="tip-desc">If you have investments with unrealized losses, consider selling them in the same tax year your bonus is paid. Up to $3,000 in net capital losses can offset ordinary income, including bonus income, each year.</p>
+            </div>
           </div>
-          <div class="cat-card high-tax">
-            <div class="cat-icon">⚠️</div>
-            <h4>High-Tax States</h4>
-            <p>California (13.3%), New York (10.9%), New Jersey (10.75%), Oregon (9.9%), Minnesota (9.85%)</p>
-            <strong>Bonus Rate: 7%+</strong>
+          <div class="tip-item animate-on-scroll delay-1">
+            <div class="tip-icon">🎗️</div>
+            <div>
+              <div class="tip-title">Increase Charitable Contributions</div>
+              <p class="tip-desc">Itemizing deductions that include charitable donations in the same year as a large bonus can help offset taxable income. A Donor-Advised Fund (DAF) lets you front-load multiple years of giving in one high-income year.</p>
+            </div>
+          </div>
+          <div class="tip-item animate-on-scroll delay-2">
+            <div class="tip-icon">📝</div>
+            <div>
+              <div class="tip-title">Update Your W-4 Withholding</div>
+              <p class="tip-desc">If the flat 22% withholding on your bonus will leave you over-withheld for the year, you can adjust your regular paycheck W-4 allowances to reduce withholding and avoid giving the IRS an interest-free loan.</p>
+            </div>
           </div>
         </div>
       </div>
+    </section>
 
-      <div class="state-table-wrap">
-        <table class="state-table" id="stateTable">
-          <thead>
-            <tr>
-              <th>State</th>
-              <th>Supplemental Rate</th>
-              <th>Top Marginal Rate</th>
-              <th>Notes</th>
-            </tr>
-          </thead>
-          <tbody id="stateTableBody"></tbody>
-        </table>
+    <!-- ===== FAQ ===== -->
+    <section class="faq-section" id="faq" aria-label="Frequently asked questions about bonus taxes">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <span class="tag tag-purple">❓ FAQ</span>
+          <h2 class="section-title">Bonus Tax Questions Answered</h2>
+          <p class="section-subtitle">Everything you need to know about bonus taxation, withholding methods, and paycheck calculations.</p>
+        </div>
+        <div class="faq-list" itemscope itemtype="https://schema.org/FAQPage">
+
+          <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <div class="faq-question" tabindex="0" role="button" aria-expanded="false">
+              <span itemprop="name">What is the federal tax rate on bonuses in 2026?</span>
+              <span class="faq-icon">+</span>
+            </div>
+            <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div class="faq-answer-inner" itemprop="text">The IRS requires employers to withhold a flat <strong>22% federal income tax</strong> on supplemental wages — including bonuses — up to $1 million. Bonuses above $1 million are subject to 37% withholding on the excess amount. Alternatively, your employer may use the aggregate method, which combines your bonus with regular pay and applies the corresponding marginal bracket rate. Either way, your actual tax owed is determined when you file your annual return.</div>
+            </div>
+          </div>
+
+          <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <div class="faq-question" tabindex="0" role="button" aria-expanded="false">
+              <span itemprop="name">How does the bonus tax calculator work?</span>
+              <span class="faq-icon">+</span>
+            </div>
+            <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div class="faq-answer-inner" itemprop="text">Enter your annual base salary, bonus amount, filing status, pay period, and optional state tax rate. Choose either the <strong>flat-rate (22%)</strong> or <strong>aggregate withholding method</strong>. The calculator applies IRS 2026 federal tax tables to compute federal income tax, then adds Social Security (6.2%), Medicare (1.45%), any Additional Medicare surtax (0.9% above $200K), and state withholding. Your estimated net after-tax bonus is displayed instantly along with an interactive breakdown chart.</div>
+            </div>
+          </div>
+
+          <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <div class="faq-question" tabindex="0" role="button" aria-expanded="false">
+              <span itemprop="name">Do bonuses get taxed more than regular income?</span>
+              <span class="faq-icon">+</span>
+            </div>
+            <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div class="faq-answer-inner" itemprop="text">No — bonuses are subject to the same marginal income tax rates as your regular wages. They are not taxed at a higher rate permanently. However, the flat 22% <em>withholding</em> may feel high if your marginal bracket is lower (e.g., 12%). The good news is that any over-withholding is reconciled when you file your tax return, potentially resulting in a refund. If the aggregate method is used and it pushes you into a higher bracket momentarily, again, your annual filing will settle the actual amount owed.</div>
+            </div>
+          </div>
+
+          <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <div class="faq-question" tabindex="0" role="button" aria-expanded="false">
+              <span itemprop="name">What is the difference between the flat rate and aggregate method?</span>
+              <span class="faq-icon">+</span>
+            </div>
+            <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div class="faq-answer-inner" itemprop="text">The <strong>flat supplemental rate</strong> applies exactly 22% federal withholding to your bonus regardless of your salary level — simple and predictable. The <strong>aggregate method</strong> combines your bonus with your regular paycheck, recalculates withholding on the combined amount using your W-4 information, then subtracts the regular withholding already taken. This can lead to higher or lower withholding depending on your income and current W-4 setup. Your employer decides which method to use.</div>
+            </div>
+          </div>
+
+          <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <div class="faq-question" tabindex="0" role="button" aria-expanded="false">
+              <span itemprop="name">Are bonuses subject to Social Security and Medicare taxes?</span>
+              <span class="faq-icon">+</span>
+            </div>
+            <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div class="faq-answer-inner" itemprop="text">Yes. Bonus pay is fully subject to FICA taxes: <strong>6.2% Social Security</strong> (on wages up to the 2026 wage base of $160,200) and <strong>1.45% Medicare</strong> with no income cap. If your total wages — including the bonus — exceed $200,000 for the year ($250,000 for married filing jointly), you also owe an additional <strong>0.9% Medicare surtax</strong> on the excess amount, which your employer begins withholding once your wages pass $200,000.</div>
+            </div>
+          </div>
+
+          <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <div class="faq-question" tabindex="0" role="button" aria-expanded="false">
+              <span itemprop="name">How can I reduce taxes on my bonus?</span>
+              <span class="faq-icon">+</span>
+            </div>
+            <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div class="faq-answer-inner" itemprop="text">Several legal strategies can reduce your bonus tax bill: (1) <strong>Maximize pre-tax 401(k) contributions</strong> from your bonus; (2) Contribute to an <strong>HSA or FSA</strong>; (3) <strong>Increase charitable deductions</strong> or use a Donor-Advised Fund in the same tax year; (4) <strong>Harvest capital losses</strong> to offset bonus income; (5) Ask your employer to <strong>defer the bonus</strong> to January if you're near a bracket boundary. Always consult a CPA or tax advisor for personalized planning.</div>
+            </div>
+          </div>
+
+          <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <div class="faq-question" tabindex="0" role="button" aria-expanded="false">
+              <span itemprop="name">Is this bonus tax calculator accurate?</span>
+              <span class="faq-icon">+</span>
+            </div>
+            <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div class="faq-answer-inner" itemprop="text">Our calculator uses the official 2026 IRS federal tax brackets and FICA rates to produce reliable withholding <em>estimates</em>. Results reflect common scenarios but do not account for individual deductions, credits, pre-tax benefit elections, multiple jobs, year-to-date wages already withheld, or specific state tax rules. Use this tool as a planning guide and consult a tax professional for precise figures before making major financial decisions.</div>
+            </div>
+          </div>
+
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- TIPS SECTION -->
-  <section class="section tips-section" id="tips">
-    <div class="container">
-      <div class="section-label">💡 Smart Strategies</div>
-      <h2 class="section-title">Ways to Reduce Bonus Taxes</h2>
-      <p class="section-sub">You can't avoid taxes, but you can be smart about minimizing them legally.</p>
-
-      <div class="tips-grid">
-        <div class="tip-card" style="--accent:#FF6B6B">
-          <div class="tip-icon">🏦</div>
-          <h3>Maximize 401(k) Contributions</h3>
-          <p>If you receive a large bonus, consider asking your employer to apply it toward your 401(k) up to the annual limit ($23,000 in 2024, $30,500 if 50+). Pre-tax contributions reduce your taxable bonus dollar-for-dollar.</p>
-          <div class="tip-save">Saves: Up to 37% on contributed amount</div>
-        </div>
-        <div class="tip-card" style="--accent:#4ECDC4">
-          <div class="tip-icon">🏥</div>
-          <h3>Fund Your HSA or FSA</h3>
-          <p>If eligible, contribute to a Health Savings Account (HSA: $4,150 single / $8,300 family in 2024) or Flexible Spending Account before your bonus is paid to lower taxable income.</p>
-          <div class="tip-save">Saves: Federal + state + FICA taxes</div>
-        </div>
-        <div class="tip-card" style="--accent:#45B7D1">
-          <div class="tip-icon">📅</div>
-          <h3>Time Your Bonus Wisely</h3>
-          <p>If you're near a tax bracket threshold, having your bonus paid in January instead of December (or vice versa) can shift income into a lower-tax year — especially if you expect income changes.</p>
-          <div class="tip-save">Saves: Varies by bracket difference</div>
-        </div>
-        <div class="tip-card" style="--accent:#96CEB4">
-          <div class="tip-icon">🎁</div>
-          <h3>Charitable Donations</h3>
-          <p>Donating to a qualified charity in the same tax year as your bonus can offset income. A donor-advised fund lets you front-load multiple years of donations in one lump sum for maximum deduction.</p>
-          <div class="tip-save">Saves: Up to your marginal tax rate</div>
-        </div>
-        <div class="tip-card" style="--accent:#FFEAA7">
-          <div class="tip-icon">🏠</div>
-          <h3>Defer to Traditional IRA</h3>
-          <p>Contributing to a Traditional IRA (up to $7,000, or $8,000 if 50+) may be deductible depending on your income and employer retirement plan coverage, further reducing your taxable income.</p>
-          <div class="tip-save">Saves: Based on eligibility & bracket</div>
-        </div>
-        <div class="tip-card" style="--accent:#DDA0DD">
-          <div class="tip-icon">📋</div>
-          <h3>Adjust Your W-4</h3>
-          <p>Updating your W-4 withholding elections — especially adding extra withholding in the period you receive your bonus — can prevent a surprise tax bill at year-end without changing your overall take-home dramatically.</p>
-          <div class="tip-save">Benefit: Avoid underpayment penalties</div>
+    <!-- ===== CTA ===== -->
+    <section class="cta-section" aria-label="Call to action">
+      <div class="container">
+        <div class="cta-inner animate-on-scroll">
+          <span class="tag cta-tag">🚀 Free & Instant</span>
+          <h2 class="cta-title">Ready to Calculate Your Bonus Tax?</h2>
+          <p class="cta-desc">No sign-up required. Get your full bonus tax breakdown — federal, state, and FICA — in seconds.</p>
+          <a href="#calculator" class="cta-btn">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M9 7H6a2 2 0 00-2 2v9a2 2 0 002 2h9a2 2 0 002-2v-3M9 7V5a2 2 0 012-2h2M9 7h8"/></svg>
+            Calculate My Bonus Tax Now
+          </a>
         </div>
       </div>
+    </section>
+
+  </main>
+
+  <!-- Disclaimer bar -->
+  <div class="disclaimer-bar" role="note" aria-label="Disclaimer">
+    <div class="disclaimer-inner container">
+      <span class="disclaimer-icon">⚠️</span>
+      <span>This calculator provides <strong>estimates only</strong> and is not tax or legal advice. Tax laws change; always verify with the IRS or a qualified tax professional. Results may differ from your actual paycheck.</span>
     </div>
-  </section>
+  </div>
 
-  <!-- FAQ -->
-  <section class="section faq-section" id="faq">
-    <div class="container">
-      <div class="section-label">❓ Common Questions</div>
-      <h2 class="section-title">Bonus Tax FAQ</h2>
-      <p class="section-sub">The most frequently asked questions about bonus taxation, answered clearly.</p>
+  <!-- ===== FOOTER (injected by footer.js) ===== -->
+  <div id="footer-placeholder"></div>
 
-      <div class="faq-list" id="faqList"></div>
-    </div>
-  </section>
+  <!-- Scripts -->
+  <script src="js/calculator.js" defer></script>
+  <script src="js/header.js" defer></script>
+  <script src="js/footer.js" defer></script>
 
-  <!-- GLOSSARY -->
-  <section class="section glossary-section" id="glossary">
-    <div class="container">
-      <div class="section-label">📖 Terminology</div>
-      <h2 class="section-title">Bonus Tax Glossary</h2>
-      <p class="section-sub">Key terms every employee should know when evaluating their bonus compensation.</p>
-      <div class="glossary-grid" id="glossaryGrid"></div>
-    </div>
-  </section>
-
-  <!-- CTA BANNER -->
-  <section class="cta-banner">
-    <div class="cta-bg">
-      <div class="blob blob-cta1"></div>
-      <div class="blob blob-cta2"></div>
-    </div>
-    <div class="container cta-inner">
-      <div class="cta-text">
-        <h2>Ready to See Your Real Bonus Take-Home?</h2>
-        <p>Use our free calculator now — no registration, no ads, no hidden fees. Just instant, accurate bonus tax estimates.</p>
-      </div>
-      <a href="#calculator" class="btn btn-white">Calculate My Bonus →</a>
-    </div>
-  </section>
-
-  <div id="footer-root"></div>
-
-  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
-
-  <script src="components.js"></script>
-  <script src="calculator.js"></script>
-  <script src="app.js"></script>
 </body>
 </html>
