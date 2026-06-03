@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us – Bonus Tax Calculator</title>
+  <meta name="description" content="Have questions or feedback about our 2026 bonus tax tool? Drop us a line directly. We are always looking to improve our financial applications." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://bonustaxcalculator.github.io/contact.html" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+
+  <!-- Schema Markup -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "ContactPage",
+        "@id": "https://bonustaxcalculator.github.io/contact.html#webpage",
+        "url": "https://bonustaxcalculator.github.io/contact.html",
+        "name": "Contact Us - Bonus Tax Calculator",
+        "description": "Reach out directly to developer Malik Irfan for general support, feature requests, or technical feedback.",
+        "inLanguage": "en-US"
+      }
+    ]
+  }
+  </script>
+
+  <link rel="stylesheet" href="style (23).css" />
+  <style>
+    .contact-content { padding: 60px 0 90px; background: var(--bg); }
+    .contact-grid-layout { display: grid; grid-template-columns: 1fr 1.2fr; gap: 48px; max-width: 1000px; margin: 0 auto; align-items: start; }
+    .contact-info-card { background: var(--text-primary); color: white; border-radius: var(--radius-xl); padding: 40px; box-shadow: var(--shadow); }
+    .contact-info-card h2 { font-family: var(--font-display); font-size: 1.8rem; margin-bottom: 16px; color: white; }
+    .contact-info-card p { color: #94a3b8; font-size: 0.95rem; margin-bottom: 32px; line-height: 1.65; }
+    .contact-method { display: flex; align-items: center; gap: 16px; background: rgba(255,255,255,0.05); padding: 16px; border-radius: var(--radius); border: 1px solid rgba(255,255,255,0.1); }
+    .contact-method-icon { font-size: 1.8rem; }
+    .contact-method-label { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--primary-light); font-weight: 600; }
+    .contact-method-value a { color: white; text-decoration: none; font-family: var(--font-mono); font-size: 0.92rem; transition: color var(--transition); word-break: break-all; }
+    .contact-method-value a:hover { color: var(--primary); }
+    
+    .contact-form-card { background: white; border: 1px solid var(--border); border-radius: var(--radius-xl); padding: 40px; box-shadow: var(--shadow-sm); }
+    .contact-form-card h3 { font-family: var(--font-display); font-size: 1.45rem; margin-bottom: 24px; }
+    .form-textarea { width: 100%; min-height: 140px; resize: vertical; padding: 12px 16px; border-radius: var(--radius-sm); border: 1.5px solid var(--border); background: var(--bg); color: var(--text-primary); font-family: var(--font-body); font-size: 0.95rem; outline: none; transition: border-color var(--transition); }
+    .form-textarea:focus { border-color: var(--primary); box-shadow: 0 0 0 3px rgba(249,115,22,0.12); }
+
+    @media (max-width: 850px) { .contact-grid-layout { grid-template-columns: 1fr; gap: 32px; } }
+    @media (max-width: 500px) { .contact-info-card, .contact-form-card { padding: 24px; } }
+  </style>
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <div id="header-placeholder"></div>
+
+  <main>
+    <!-- ===== HERO ===== -->
+    <section class="hero" style="padding: 60px 0 40px; text-align: center;">
+      <div class="container">
+        <span class="tag tag-purple">Get In Touch</span>
+        <h1 style="font-family: var(--font-display); font-size: clamp(2rem, 5vw, 3rem); margin-bottom: 12px;">Contact Us</h1>
+        <p class="section-subtitle" style="max-width: 600px; margin: 0 auto;">Have an optimization idea, code feedback, or calculation inquiry? We're listening.</p>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT GRID ===== -->
+    <section class="contact-content">
+      <div class="container">
+        <div class="contact-grid-layout">
+          
+          <!-- LEFT SIDE: INFO -->
+          <div class="contact-info-card">
+            <h2>Let's Connect</h2>
+            <p>Your technical user experience is incredibly important to us. If you encounter unexpected system behavior, cross-browser parsing alignment problems, or want to suggest new payroll configurations, feel free to drop a line directly to our inbox.</p>
+            
+            <div class="contact-method">
+              <span class="contact-method-icon">📬</span>
+              <div>
+                <div class="contact-method-label">Direct Inbox Email</div>
+                <div class="contact-method-value">
+                  <a href="mailto:malikirfanmalikirfan766@gmail.com">malikirfanmalikirfan766@gmail.com</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- RIGHT SIDE: INTERACTIVE PLACEHOLDER FORM -->
+          <div class="contact-form-card">
+            <h3>Send A Message</h3>
+            <form action="https://formspree.io/f/YOUR_FORM_ID_HERE" method="POST" id="contact-form">
+              <div class="form-group">
+                <label class="form-label" for="contact-name">Your Full Name</label>
+                <input class="form-input" type="text" id="contact-name" name="name" placeholder="John Doe" required />
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="contact-email">Email Address</label>
+                <input class="form-input" type="email" id="contact-email" name="email" placeholder="john@example.com" required />
+              </div>
+              <div class="form-group" style="margin-bottom: 28px;">
+                <label class="form-label" for="contact-message">Message Details</label>
+                <textarea class="form-textarea" id="contact-message" name="message" placeholder="Describe your question or feedback..." required></textarea>
+              </div>
+              <button type="submit" class="calc-submit" style="margin-top:0;">Send Message Now →</button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <div id="footer-placeholder"></div>
+
+  <!-- Scripts -->
+  <script src="js/header.js" defer></script>
+  <script src="js/footer.js" defer></script>
+
+</body>
+</html>
