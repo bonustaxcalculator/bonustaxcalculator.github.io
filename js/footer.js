@@ -15,38 +15,35 @@ const FooterComponent = {
               <span class="logo-icon">💰</span>
               <span class="logo-text">Bonus<span class="logo-accent">Tax</span>Calc</span>
             </div>
-            <p class="footer-tagline">The smartest way to estimate your bonus tax withholding and maximize your take-home pay.</p>
-            <div class="footer-social">
-              <a href="#" aria-label="Twitter" class="social-btn">𝕏</a>
-              <a href="#" aria-label="LinkedIn" class="social-btn">in</a>
-              <a href="#" aria-label="Facebook" class="social-btn">f</a>
-            </div>
+            <p class="footer-tagline">The smartest way to estimate your bonus tax withholding and maximize your take-home pay.</p>            
           </div>
           <div class="footer-links">
             <h4>Calculator</h4>
             <ul>
-              <li><a href="#calculator">Bonus Tax Calculator</a></li>
-              <li><a href="#calculator">Salary + Bonus Calculator</a></li>
-              <li><a href="#calculator">After-Tax Bonus Estimator</a></li>
-              <li><a href="#calculator">Payroll Calculator</a></li>
+              <li><a href="/#calculator">Bonus Tax Calculator</a></li>
+              <li><a href="/#calculator">Salary + Bonus Calculator</a></li>
+              <li><a href="/#calculator">After-Tax Bonus Estimator</a></li>
+              <li><a href="/#calculator">Payroll Calculator</a></li>
             </ul>
           </div>
           <div class="footer-links">
             <h4>Resources</h4>
             <ul>
-              <li><a href="#how-it-works">How It Works</a></li>
-              <li><a href="#tax-rates">2024 Bonus Tax Rates</a></li>
-              <li><a href="#faq">FAQ</a></li>
-              <li><a href="#methods">Withholding Methods</a></li>
+              <li><a href="/#how-it-works">How It Works</a></li>
+              <li><a href="/#tax-rates">2024 Bonus Tax Rates</a></li>
+              <li><a href="/#faq">FAQ</a></li>
+              <li><a href="/#methods">Withholding Methods</a></li>
             </ul>
           </div>
           <div class="footer-links">
             <h4>Legal</h4>
             <ul>
-              <li><a href="#">Privacy Policy</a></li>
-              <li><a href="#">Terms of Use</a></li>
-              <li><a href="#">Disclaimer</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="/privacy">Privacy Policy</a></li>
+              <li><a href="/terms">Terms of Use</a></li>
+              <li><a href="/disclaimer">Disclaimer</a></li>
+              <li><a href="/cookies">Cookies Policy</a></li>
+              <li><a href="/about">About</a></li>
+              <li><a href="/contact">Contact</a></li>
             </ul>
           </div>
         </div>
