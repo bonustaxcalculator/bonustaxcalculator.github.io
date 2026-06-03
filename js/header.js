@@ -3,17 +3,17 @@ const HeaderComponent = {
     return `
     <header class="site-header" id="site-header">
       <div class="header-inner">
-        <a href="#" class="logo" aria-label="Bonus Tax Calculator Home">
+        <a href="/" class="logo" aria-label="Bonus Tax Calculator Home">
           <span class="logo-icon">💰</span>
           <span class="logo-text">Bonus<span class="logo-accent">Tax</span>Calc</span>
         </a>
         <nav class="main-nav" id="main-nav" aria-label="Main Navigation">
           <ul class="nav-list">
-            <li><a href="#calculator" class="nav-link">Calculator</a></li>
-            <li><a href="#how-it-works" class="nav-link">How It Works</a></li>
-            <li><a href="#tax-rates" class="nav-link">Tax Rates</a></li>
-            <li><a href="#faq" class="nav-link">FAQ</a></li>
-            <li><a href="#calculator" class="nav-cta">Calculate Now</a></li>
+            <li><a href="/#calculator" class="nav-link">Calculator</a></li>
+            <li><a href="/#how-it-works" class="nav-link">How It Works</a></li>
+            <li><a href="/#tax-rates" class="nav-link">Tax Rates</a></li>
+            <li><a href="/#faq" class="nav-link">FAQ</a></li>
+            <li><a href="/#calculator" class="nav-cta">Calculate Now</a></li>
           </ul>
         </nav>
         <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false">
