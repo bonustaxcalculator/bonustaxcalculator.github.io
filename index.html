@@ -32,108 +32,54 @@
   <meta name="twitter:description" content="Free bonus pay tax estimator. Flat rate or aggregate method, federal + state + FICA, instant results." />
 
   <!-- Schema Markup -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "WebSite",
-        "@id": "https://bonustaxcalculator.github.io/#website",
-        "url": "https://bonustaxcalculator.github.io/",
-        "name": "BonusTaxCalc",
-        "description": "Free bonus tax calculator for estimating federal, state, and FICA withholding on bonus payments.",
-        "inLanguage": "en-US",
-      "publisher": {
-      "@type": "Organization",
-      "@id": "https://bonustaxcalculator.github.io/#organization",
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://bonustaxcalculator.github.io/#website",
+      "url": "https://bonustaxcalculator.github.io/",
       "name": "BonusTaxCalc",
-      "url": "https://bonustaxcalculator.github.io/"
-      },
-      {
-        "@type": "WebApplication",
-        "@id": "https://bonustaxcalculator.github.io/#app",
-        "name": "Bonus Tax Calculator",
-        "url": "https://bonustaxcalculator.github.io/",
-        "applicationCategory": "FinanceApplication",
-        "operatingSystem": "Any",
-        "browserRequirements": "Requires JavaScript",
-        "description": "Calculate how much tax is withheld from your bonus paycheck using the flat supplemental rate or aggregate method. Covers federal income tax, Social Security, Medicare, and state withholding.",
-        "offers": {
-          "@type": "Offer",
-          "price": "0",
-          "priceCurrency": "USD"
-        }
-    "author": {
-      "@type": "Organization",
-      "@id": "https://bonustaxcalculator.github.io/#organization"
+      "description": "Free bonus tax calculator for estimating federal, state, and FICA withholding on bonus payments.",
+      "inLanguage": "en-US"
     },
-        "featureList": [
-          "Federal bonus tax calculation (flat 22% and aggregate method)",
-          "Social Security and Medicare (FICA) withholding",
-          "State income tax estimation",
-          "Bonus + salary combined paycheck calculator",
-          "After-tax net bonus breakdown",
-          "Marginal and effective tax rate display",
-          "Interactive donut chart visualization"
-        ]
+    {
+      "@type": "WebApplication",
+      "@id": "https://bonustaxcalculator.github.io/#app",
+      "name": "Bonus Tax Calculator",
+      "url": "https://bonustaxcalculator.github.io/",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Any",
+      "browserRequirements": "Requires JavaScript",
+      "description": "Calculate how much tax is withheld from your bonus paycheck using the flat supplemental rate or aggregate method. Covers federal income tax, Social Security, Medicare, and state withholding.",
+      "author": {
+        "@type": "Person",
+        "name": "Malik Irfan"
       },
-      {
-        "@type": "FAQPage",
-        "@id": "https://bonustaxcalculator.github.io/#faq",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "What is the federal tax rate on bonuses in 2026?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "The IRS requires employers to withhold a flat 22% federal income tax on supplemental wages (including bonuses) up to $1 million. Bonuses above $1 million are withheld at 37%. Alternatively, employers may use the aggregate method, which combines your regular pay and bonus to determine your marginal bracket."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How does the bonus tax calculator work?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Enter your regular salary, bonus amount, filing status, state tax rate, and pay period. Choose either the flat-rate (22%) or aggregate withholding method. The calculator instantly computes federal income tax, Social Security tax, Medicare tax, and state withholding to show your net after-tax bonus."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Do bonuses get taxed more than regular income?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "No — bonuses are subject to the same marginal tax rates as ordinary income. However, because the flat 22% withholding rate is applied upfront (or your employer uses the aggregate method pushing you into a higher bracket momentarily), your paycheck withholding may feel higher. Your actual tax owed is reconciled when you file your return."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What is the difference between the flat rate and aggregate method?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "The flat supplemental rate withholds exactly 22% federal tax from your bonus regardless of your salary. The aggregate method adds your bonus to your regular paycheck, recalculates withholding for the combined amount, and subtracts what was already withheld. The aggregate method can result in higher or lower withholding depending on your total income."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Are bonuses subject to Social Security and Medicare taxes?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. Bonus pay is subject to FICA taxes: 6.2% Social Security (up to the annual wage base of $160,200 for 2026) and 1.45% Medicare. Earners above $200,000 also owe an additional 0.9% Medicare surtax."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How can I reduce taxes on my bonus?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Common strategies include contributing bonus funds to a pre-tax 401(k) or 403(b), making deductible IRA contributions, directing money to an HSA, timing the bonus receipt across tax years, or increasing other tax deductions. Always consult a tax professional for personalized advice."
-            }
-          }
-        ]
-      }
-    ]
-  }
-  </script>
+      "publisher": {
+        "@type": "Organization",
+        "name": "Bonus Tax Calculator"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "featureList": [
+        "Federal bonus tax calculation (flat 22% and aggregate method)",
+        "Social Security and Medicare (FICA) withholding",
+        "State income tax estimation",
+        "Bonus + salary combined paycheck calculator",
+        "After-tax net bonus breakdown",
+        "Marginal and effective tax rate display",
+        "Interactive donut chart visualization"
+      ]
+    }
+  ]
+}
+</script>
+  
 <link rel="stylesheet" href="style.css" />
 </head>
 <body>
