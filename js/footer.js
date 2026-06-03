@@ -30,7 +30,7 @@ const FooterComponent = {
             <h4>Resources</h4>
             <ul>
               <li><a href="/#how-it-works">How It Works</a></li>
-              <li><a href="/#tax-rates">2024 Bonus Tax Rates</a></li>
+              <li><a href="/#tax-rates">2026 Bonus Tax Rates</a></li>
               <li><a href="/#faq">FAQ</a></li>
               <li><a href="/#methods">Withholding Methods</a></li>
             </ul>
